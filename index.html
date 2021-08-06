@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/f5bcff8aa0.js" crossorigin="anonymous"></script>
+    <title>Hi i'm Naufal.</title>
+</head>
+
+<!-- <body class="flex flex-wrap content-center h-screen w-screen"> -->
+
+<body class="my-6 h-screen" id="body-section">
+    <!-- <div class="header mx-20 my-10">
+        <div class="logo w-28">
+            <img src="assets/icons/logo.svg" alt="">
+        </div>
+    </div> -->
+    <div class="main flex mx-20">
+        <div class="sidebar-list fixed">
+            <button class="h-16 w-16 rounded-md grid bg-custom-red justify-items-center py-2" onclick="about()" id="about-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+                <p class="text-white">About</p>
+            </button>
+            <button class="h-16 w-16 bg-custom-red rounded-md grid justify-items-center py-2 mt-5" onclick="projects()" id="projects-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <p class="text-white">Projects</p>
+            </button>
+            <button class="h-16 w-16 bg-custom-red rounded-md grid justify-items-center py-2 mt-5" onclick="resume()" id="resume-button">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                <p class="text-white">Resume</p>
+            </button>
+        </div>
+        <div class="ml-4 flex ml-20 hidden" id="about-section">
+            <div class="information space-y-4">
+                <p class="text-6xl text-white windsong medium">Hi there, i'm Naufal.</p>
+                <div class="border border-white w-1/4"></div>
+                <p class="text-white text-lg quicksand medium w-4/5">I have more than one year of experience working as
+                    a
+                    Mobile Developer (Flutter). During the last year, I
+                    build a startup technology with 5 other friends is called EatAja. Specializing in front end
+                    developers
+                    and interested in data science.</p>
+                <p class="text-base text-white">Find me on</p>
+                <div class="space-x-1">
+                    <a href="https://www.facebook.com/naufalsyaiful">
+                        <i class="fab fa-facebook text-white text-2xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mnaufalbahri/">
+                        <i class="fab fa-instagram text-white text-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/naufalbahri/">
+                        <i class="fab fa-linkedin-in text-white text-2xl"></i>
+                    </a>
+                    <a href="https://github.com/mf4lsb">
+                        <i class="fab fa-github text-white text-2xl"></i>
+                    </a>
+                    <a href="https://www.hackerrank.com/mnaufalbahri">
+                        <i class="fab fa-hackerrank text-white text-2xl"></i>
+                    </a>
+                </div>
+                <!-- <button>Download CV</button> -->
+            </div>
+            <div class="image text-white w-4/6 h-80 relative">
+                <div class="image absolute left-0 top-5 w-4/5 h-5/6 z-10">
+                    <img class="object-cover w-full h-full" src="assets/img/photoku.png" alt="">
+                </div>
+                <div class="border border-white absolute bottom-0 right-5 w-5/6 h-5/6 z-0"></div>
+            </div>
+        </div>
+
+        <div class="ml-9 ml-20 grid md:grid-cols-2 gap-4 w-full mb-4 sm:grid-cols-1" id="projects-section">
+            <!-- EatAja Customer -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/eat-aja-customer.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">EatAja Customer</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="flutter p-1.5">FLUTTER</div>
+                    <div class="laravel p-1.5">LARAVEL</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.eataja.customer.app"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/google-play-store-logo-png-transparent.png"
+                            alt="" class="w-4 h-4 mr-1">
+                        Google Play
+                    </a>
+                </div>
+            </div>
+            <!-- EatAja Mitra -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/eat-aja-mitra.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">EatAja Mitra</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="flutter p-1.5">FLUTTER</div>
+                    <div class="laravel p-1.5">LARAVEL</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.eataja.mitra.app"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/google-play-store-logo-png-transparent.png"
+                            alt="" class="w-4 h-4 mr-1">
+                        Google Play
+                    </a>
+                </div>
+            </div>
+            <!-- Dokter App -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/booking-dokter-app.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Dokter App</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="flutter p-1.5">FLUTTER</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/mf4lsb/adc_nakama"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <p class="ml-2">Source Code</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Food Market App -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/food-market.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Food Market</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="flutter p-1.5">FLUTTER</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/mf4lsb/food-market-bwa"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <p class="ml-2">Source Code</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Dengar App -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/dengar-app.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Dengar App</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="ionic-angular p-1.5">IONIC + ANGULAR</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/sealaboratory/project_teman_tuli"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <p class="ml-2">Source Code</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Pornography Detection App -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/pornography-detection.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Pornography Detection App</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="flutter p-1.5">FLUTTER</div>
+                    <div class="tensorflow p-1.5">TENSORFLOW</div>
+                    <div class="python p-1.5">PYTHON</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/TynClause/Pornography-Detection"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <p class="ml-2">Source Code</p>
+                    </a>
+                </div>
+            </div>
+            <!-- EatAja Web Order -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/eat-aja-app.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">EatAja Web Order</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="ionic-angular p-1.5">IONIC + ANGULAR</div>
+                </div>
+            </div>
+            <!-- Telkom Kujang Admin Web -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/geladi-telkom.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Telkom Kujang Admin Web</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="codeigniter p-1.5">CODEIGNITER</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://github.com/mf4lsb/Telkom-Kujang"
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                        <p class="ml-2">Source Code</p>
+                    </a>
+                </div>
+            </div>
+            <!-- Kebuyutan Web -->
+            <div class="eat-aja-customer space-y-2">
+                <div class="content-image-porto w-full h-80 place-self-center flex justify-center bg-white">
+                    <img src="assets/img/kebuyutan.png" alt="" class="object-contain h-full">
+                </div>
+                <p class="poppins text-3xl bold text-white">Sistem Informasi Desa Kebuyutan</p>
+                <div class="tech-stack flex space-x-3">
+                    <div class="wordpress p-1.5">WORDPRESS</div>
+                    <div class="codeigniter p-1.5">CODEIGNITER</div>
+                </div>
+                <div class="flex space-x-4">
+                    <a
+                        class="p-2 text-white flex justfy-center items-center rounded-sm poppins medium border border-white rounded-sm" href="https://kebuyutan.id/">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                        </svg>
+                        <p class="ml-2">Visit Project</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="js/jquery.js">
+    </script> -->
+    <script>
+        function about() {
+            console.log("Test");
+            var body = document.body;
+            body.classList.add('flex', 'flex-wrap', 'content-center', 'w-screen')
+            body.classList.remove("my-6");
+
+            var element = document.getElementById("about-section");
+            element.classList.remove("hidden");
+
+            var element = document.getElementById("projects-section");
+            element.classList.add("hidden");
+        }
+        
+        function projects() {
+            console.log("Test");
+            var body = document.body;
+            body.classList.add("my-6");
+            body.classList.remove('flex', 'flex-wrap', 'content-center', 'w-screen')
+
+            var element = document.getElementById("projects-section");
+            element.classList.remove("hidden");
+
+            var element = document.getElementById("about-section");
+            element.classList.add("hidden");
+        }
+    </script>
+</body>
+
+</html>

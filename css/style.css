@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=MonteCarlo&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: #0E0C38;
+}
+
+.bg-custom-red {
+    background-color: #CE0000;
+}
+
+.bg-custom-blue {
+    background-color: #0E0C38;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.windsong {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.medium {
+    font-weight: 500;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.gray-custom {
+    color: #757575;
+}
+
+.flutter {
+    color: #13489E;
+    --tw-bg-opacity: 1;
+    background-color: rgba(59, 130, 246, var(--tw-bg-opacity));
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.laravel {
+    color: #932111;
+    --tw-bg-opacity: 1;
+    background-color: #E24630;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.ionic-angular {
+    color: #510B1C;
+    --tw-bg-opacity: 1;
+    background-color: #C3002F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.codeigniter {
+    color: #822312;
+    --tw-bg-opacity: 1;
+    background-color: #EF4123;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.wordpress {
+    color: #251C1C;
+    --tw-bg-opacity: 1;
+    background-color: #464646;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.python {
+    color: #937316;
+    --tw-bg-opacity: 1;
+    background-color: #FFCF3F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.tensorflow {
+    color: #7E2B0F;
+    --tw-bg-opacity: 1;
+    background-color: #E55B2D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
