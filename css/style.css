@@ -122,3 +122,43 @@ body {
     border-radius: 3px;
     font-size: smaller;
 }
+
+.react-native {
+    color: #2396B1;
+    --tw-bg-opacity: 1;
+    background-color: #37D9FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.node-js {
+    color: #618628;
+    --tw-bg-opacity: 1;
+    background-color: #90C53F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.express-js {
+    color: #B9B6B3;
+    --tw-bg-opacity: 1;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
+
+.sql {
+    color: #A56011;
+    --tw-bg-opacity: 1;
+    background-color: #F7921E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-radius: 3px;
+    font-size: smaller;
+}
